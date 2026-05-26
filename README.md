@@ -1,5 +1,3 @@
-🏏 Virat Kohli Batting Analysis (2008–2018)
-
 ## 📌 Project Overview
 
 This project analyzes the batting performance of **Virat Kohli** from **2008 to 2018** using **Python, Data Analytics, and Data Visualization** techniques.
@@ -36,7 +34,7 @@ The dataset contains batting statistics of Virat Kohli.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tools Used
 
 | Technology | Purpose |
 |------------|---------|
