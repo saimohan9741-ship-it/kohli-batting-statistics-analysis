@@ -1,142 +1,191 @@
-# 🏏 Virat Kohli Performance Analysis
+🏏 Virat Kohli Batting Analysis (2008–2018)
 
 ## 📌 Project Overview
-This project focuses on analyzing the batting performance of Virat Kohli using Python-based data analytics and visualization techniques. The analysis explores batting statistics, scoring consistency, strike rate trends, performance patterns, and overall contribution across matches.
 
-This project demonstrates practical applications of:
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Statistical Analysis
-- Data Visualization
-- Sports Analytics
+This project analyzes the batting performance of **Virat Kohli** from **2008 to 2018** using **Python, Data Analytics, and Data Visualization** techniques.
 
-## 🎯 Objectives
-- Analyze Virat Kohli’s batting performance using real cricket data
-- Identify scoring trends and consistency
-- Visualize runs, strike rates, and match performances
-- Extract meaningful insights from cricket statistics
-- Apply Python libraries for sports data analytics
+The analysis explores **batting trends, dismissal patterns, opposition-wise performance, innings comparison, yearly performance trends, and Kohli’s transformation after 2012**, providing meaningful cricket insights through visual storytelling.
 
-## 🛠️ Technologies Used
-- Python
-- Jupyter Notebook
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+---
+
+## 🎯 Project Objectives
+
+✅ Analyze Virat Kohli’s batting performance (2008–2018)  
+✅ Identify the most common dismissal patterns  
+✅ Compare performance against different opposition teams  
+✅ Analyze batting in **1st innings vs 2nd innings**  
+✅ Study performance **before and after transformation (post-2012)**  
+✅ Understand yearly trends in run scoring  
+✅ Explore relationship between **Runs Scored & Balls Faced**
+
+---
 
 ## 📂 Dataset Information
-The dataset contains batting statistics and match-related information, including:
-- Runs scored
-- Balls faced
-- Strike rate
-- Boundaries
-- Match performances
-- Batting consistency metrics
 
-## 📈 Analysis Performed
-✔️ Data Cleaning and Preprocessing  
-✔️ Exploratory Data Analysis (EDA)  
-✔️ Performance Trend Analysis  
-✔️ Strike Rate Analysis  
-✔️ Run Distribution Visualization  
-✔️ Statistical Insights Extraction  
-✔️ Match-wise Performance Evaluation  
+The dataset contains batting statistics of Virat Kohli.
 
-
-## 📊 Visualizations Included
-The project includes multiple visualizations such as:
-- Bar Charts
-- Line Graphs
-- Performance Trend Charts
-- Distribution Plots
-- Comparative Analysis Graphs
-
-These visualizations help in understanding batting consistency and scoring patterns effectively.
+| Feature | Description |
+|----------|-------------|
+| **RunsScored** | Number of runs scored |
+| **BallsFaced** | Number of balls faced |
+| **BattingPosition** | Batting order position |
+| **Dismissal** | Mode of dismissal |
+| **Inning** | 1st or 2nd innings |
+| **Opposition** | Opponent team |
+| **Year** | Match year |
 
 ---
 
-## 🚀 Key Insights
-- Identified batting consistency patterns across matches
-- Analyzed scoring efficiency using strike rate metrics
-- Observed performance fluctuations and trends
-- Extracted meaningful sports analytics insights through visualization
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| **Python** | Programming Language |
+| **Pandas** | Data Cleaning & Analysis |
+| **NumPy** | Numerical Operations |
+| **Matplotlib** | Data Visualization |
+| **Seaborn** | Statistical Graphs |
+| **Jupyter Notebook** | Development Environment |
 
 ---
 
-## 💡 Learning Outcomes
-Through this project, I gained hands-on experience in:
-- Real-world data analysis
-- Sports analytics techniques
-- Data preprocessing and visualization
-- Python libraries for analytical projects
-- Extracting actionable insights from datasets
+## 📊 Analysis Performed
 
+### 1️⃣ Dismissal Analysis
+✔️ Identified how Kohli gets dismissed most often.  
+📌 **Insight:** *Caught* is the most common dismissal type.
 
+---
 
-###  Run the Jupyter Notebook
+### 2️⃣ Opposition Analysis
+✔️ Analyzed which team Kohli played against the most.
+
+📌 **Insight:** **Sri Lanka** is the most faced opposition.
+
+---
+
+### 3️⃣ Dismissal Pattern by Opposition
+✔️ Compared dismissal trends against different teams using **Stacked Bar Charts**.
+
+---
+
+### 4️⃣ Opposition-wise Run Analysis
+✔️ Compared total and median runs against opponents.
+
+📌 **Insight:** Kohli showed stronger median performances against **Bangladesh** and **New Zealand**.
+
+---
+
+### 5️⃣ Innings Comparison
+✔️ Compared batting performance in **1st innings vs 2nd innings**.
+
+📌 **Insight:** Kohli performs better while **chasing in the 2nd innings**.
+
+---
+
+### 6️⃣ Pre vs Post Transformation Analysis
+✔️ Compared batting performance **before and after 2012 fitness transformation**.
+
+📌 **Findings:**
+- Higher runs scored 📈  
+- More balls faced 🏏  
+- Improved consistency ⭐
+
+---
+
+### 7️⃣ Yearly Performance Trend
+✔️ Visualized yearly run-scoring trends using **Point Plot**.
+
+---
+
+### 8️⃣ Runs vs Balls Relationship
+✔️ Explored relationship between **Runs Scored & Balls Faced** using **LM Plot**.
+
+📌 **Insight:** Strong positive linear relationship exists.
+
+---
+
+### 9️⃣ Batting Position Analysis
+✔️ Analyzed batting position changes across opponents and years.
+
+---
+
+## 📈 Visualizations Used
+
+✨ Count Plot  
+✨ Bar Plot  
+✨ Stacked Bar Chart  
+✨ Box Plot  
+✨ Point Plot  
+✨ LM Plot  
+✨ Facet Grid
+
+---
+
+## 🔍 Key Insights
+
+🏏 **Caught Out** is Kohli’s most common dismissal mode.  
+
+🌍 **Sri Lanka** is the opposition he has played against the most.  
+
+🔥 Kohli performs significantly better while **chasing in 2nd innings**.  
+
+💪 Performance improved noticeably **after 2012 transformation**.  
+
+📊 Strong relationship exists between **Balls Faced & Runs Scored**.
+
+---
+
+## 🚀 How to Run This Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+### 2️⃣ Install Required Libraries
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### 3️⃣ Open Jupyter Notebook
+```bash
 jupyter notebook
+```
+
+### 4️⃣ Run the Notebook
+Open the notebook file and execute all cells.
+
+---
+
 ## 📁 Project Structure
-├── Virat Kohli_Batting Analysis.ipynb
-├── Batsman.csv
-├── README.md
 
-## 📌 Key Insights from the Analysis
-
-### 📊 Statistical Findings
-- Total innings analyzed: **208**
-- Total runs scored: **10,232 runs**
-- Average runs per innings: **49.19**
-- Highest individual score: **183 runs**
-- Average strike rate: **79.35**
-- Total 50+ scores: **86**
-- Total centuries scored: **38**
+```bash
+📦 Virat-Kohli-Batting-Analysis
+│── 📄 Batsman.csv
+│── 📓 Virat_Kohli_Batting_Analysis.ipynb
+│── 📘 README.md
+```
 
 ---
 
-## 📈 Performance Insights
+## 🌟 Future Improvements
 
-### 🏏 Opposition-wise Analysis
-Virat Kohli scored the highest number of runs against:
-1. **Sri Lanka** – 2,186 runs  
-2. **West Indies** – 1,840 runs  
-3. **South Africa** – 1,269 runs  
-
-This indicates stronger batting performance and consistency against these teams.
+🔹 Add **Strike Rate Analysis**  
+🔹 Compare Kohli with other batsmen  
+🔹 Build an **Interactive Dashboard (Power BI/Tableau)**  
+🔹 Include predictive analytics using Machine Learning
 
 ---
 
-### 📅 Year-wise Performance
-- Best batting year identified in the dataset: **2017**
-- Total runs scored in 2017: **1,460 runs**
+## 👨‍💻 Author
 
-This highlights a peak performance period in his batting career.
+### **M Sai Mohan**
+📊 Business Analytics & Data Analytics Enthusiast  
+🚀 Passionate about Data Visualization & Analytics
 
 ---
 
-## 📌 Data-Driven Business Decisions
+## ⭐ If you like this project
 
-### 1️⃣ Match Strategy Decisions
-The analysis shows high consistency and scoring efficiency, helping teams decide:
-- Best batting position
-- Match pacing strategies
-- Opponent-specific game plans
-
-### 2️⃣ Performance Evaluation
-With an average of **49.19 runs per innings** and **38 centuries**, the data supports evaluating player reliability and consistency in competitive matches.
-
-### 3️⃣ Opponent-Based Planning
-Since the highest runs were scored against Sri Lanka and West Indies, teams can analyze successful patterns and replicate similar strategies against comparable opponents.
-
-### 4️⃣ Player Value & Brand Impact
-Strong statistical performance such as:
-- **10,232 total runs**
-- **86 half-centuries**
-- **38 centuries**
-
-demonstrates high player value, marketability, and long-term sports performance consistency.
-
-## ✅ Conclusion
-This project successfully converted raw cricket statistics into meaningful analytical insights using Python and data visualization techniques. The analysis demonstrates how sports analytics can support data-driven performance evaluation, strategic planning, and statistical decision-making in cricket.
-
-
+Give this repository a **Star ⭐** on GitHub
